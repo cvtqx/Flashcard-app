@@ -62,6 +62,7 @@ function CreateDeck(){
               onChange = {handleContentChange}
               value = {formData.name}
               name ="name"
+              required
             />
           </div>
           <div className="mb-3">
@@ -76,6 +77,7 @@ function CreateDeck(){
               onChange ={handleContentChange}
               value = {formData.description}
               name = "description"
+              required
             ></textarea> 
           </div>
 

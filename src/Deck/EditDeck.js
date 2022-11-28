@@ -75,6 +75,7 @@ const handleSubmitButton = (event)=>{
               onChange = {handleContentChange}
               value = {deck.name}
               name ="name"
+              required
             />
           </div>
           <div className="mb-3">
@@ -89,6 +90,7 @@ const handleSubmitButton = (event)=>{
               onChange ={handleContentChange}
               value = {deck.description}
               name = "description"
+              required
             ></textarea> 
           </div>
 

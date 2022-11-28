@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react";
 import { useParams, useHistory, Link } from "react-router-dom";
 import { readDeck, createCard } from "../utils/api/index.js";
+import CardForm from "./CardForm.js";
 
 function AddCard(){
 
@@ -64,56 +65,14 @@ return (
         </li>
       </ol>
     </nav>
-    <form onSubmit ={handleSaveClick}>
-    <div className="card w-100">
-      <div className="card-body">
-        <h5 className="card-title">{deck.name}: Add Card</h5>
-        <div className="mb-3">
-          <label htmlFor="front" className="form-label">
-            Front
-          </label>
-          <textarea
-            type="text"
-            rows="3"
-            className="form-control"
-            id="front"
-            name="front"
-            placeholder="Front side of the card"
-            value={formData.front}
-            onChange ={handleContentChange}
-          ></textarea>
-        </div>
+    <h5 className="card-title">{deck.name}: Add Card</h5>
 
-        <div className="mb-3">
-          <label htmlFor="back" className="form-label">
-            Back
-          </label>
-          <textarea
-            type="text"
-            rows="3"
-            className="form-control"
-            id="back"
-            name="back"
-            placeholder="Back side of the card"
-            value={formData.back}
-            onChange ={handleContentChange}
-          ></textarea>
-        </div>
-      </div>
-      <div className="btn-group" role="group">
-        <button
-          type="button"
-          className="btn btn-secondary"
-          onClick={() => history.push(`/decks/${deckId}`)}
-        >
-          Done
-        </button>
-        <button type="submit" className="btn btn-primary mx-3">
-          Save
-        </button>
-      </div>
-    </div>
-    </form>
+    <CardForm
+      card={formData}
+      deckId={deckId}
+      handleContentChange={handleContentChange}
+      handleSaveClick={handleSaveClick}
+    />
   </div>
 );
 }

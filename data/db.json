@@ -11,9 +11,14 @@
       "id": 2
     },
     {
-      "name": "gfdgdfgdfgdfg",
-      "description": "gfdgdfgdfgdfg",
+      "name": "hghghjgjEDITED",
+      "description": "ghjghjgjEDITED",
       "id": 3
+    },
+    {
+      "name": "fdfsdf",
+      "description": "fsdfasdfdsafdsafdsfdf",
+      "id": 4
     }
   ],
   "cards": [
@@ -48,7 +53,7 @@
       "id": 5
     },
     {
-      "front": "gfgfdgdfgfd",
+      "front": "fdsfdsfdsfdsEDITED",
       "back": "gfdgdfgdfgdf",
       "deckId": 3,
       "id": 7
