@@ -1,9 +1,9 @@
 # Flashcard-app
 Thinkful Capstone project - React
 
-##About
+## About
 
 This application allows users to create, edit, and delete decks and cards within them.
 
-##Tools used
+## Tools used
 JavaScript, React, HTML and CSS. Progress/Versions tracked with Git.
