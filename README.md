@@ -1,5 +1,5 @@
 # Flashcard-app
-Thinkful Capstone project - React
+Front-end project based on React
 
 ## About
 
