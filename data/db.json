@@ -11,9 +11,9 @@
       "id": 2
     },
     {
-      "name": "hghghjgjEDITED",
-      "description": "ghjghjgjEDITED",
-      "id": 3
+      "name": "Countries and their capitals",
+      "description": "Use this deck to study capitals of the countries of the world",
+      "id": 5
     }
   ],
   "cards": [
@@ -48,15 +48,21 @@
       "id": 5
     },
     {
-      "front": "fdsfdsfdsfdsEDITED",
-      "back": "gfdgdfgdfgdf",
-      "deckId": 3,
+      "front": "USA",
+      "back": "Washington DC",
+      "deckId": 5,
+      "id": 6
+    },
+    {
+      "front": "Russia",
+      "back": "Moscow",
+      "deckId": 5,
       "id": 7
     },
     {
-      "front": "gjhgjhgjh",
-      "back": "jkhgjkhjkh",
-      "deckId": 3,
+      "front": "Great Britain",
+      "back": "London",
+      "deckId": 5,
       "id": 8
     }
   ]
