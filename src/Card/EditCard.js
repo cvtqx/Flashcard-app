@@ -13,7 +13,7 @@ function EditCard(){
         //upload deck and card from api
 
         useEffect(() =>{
-            console.log("useEffect");
+            
             async function loadDeck(){
                 const loadedDeck = await readDeck(deckId);
                 setDeck(loadedDeck);

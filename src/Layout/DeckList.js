@@ -16,7 +16,6 @@ function DeckList() {
       try {
         const list = await listDecks(abortController.signal);
         setDecks(list);
-        console.log(list);
       } catch (error) {
         console.log("error creating deck list");
       }

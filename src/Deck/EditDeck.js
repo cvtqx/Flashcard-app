@@ -12,7 +12,6 @@ function EditDeck(){
             async function loadDeck(){
                 try{
                 const loadedDeck = await readDeck(deckId);
-                console.log(loadedDeck);
                 setDeck(loadedDeck);
                 }catch(error){
                     console.log("Error loading deck")
@@ -37,7 +36,7 @@ const handleSubmitButton = (event)=>{
         async function deckUpdate(){
             try{
                 await updateDeck(deck);
-                history.push(`/decks/${deckId}`);//moce to the deck page
+                history.push(`/decks/${deckId}`);//move to the deck page
         }catch(error){
             console.log("Deck update failed")
                 }       

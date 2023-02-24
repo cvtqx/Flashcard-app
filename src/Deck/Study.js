@@ -13,7 +13,7 @@ function Study(){
     //load current deck data
 
     useEffect(() =>{
-        console.log("study useEffect");
+        
         async function loadDeck(){
             try{
                 const loadedDeck = await readDeck(deckId);
@@ -23,7 +23,7 @@ function Study(){
             }     
         }
         loadDeck();
-        console.log(deck.cards);
+        
     }, [deckId]);
 
 

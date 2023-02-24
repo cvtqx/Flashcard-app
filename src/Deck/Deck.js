@@ -14,11 +14,9 @@ function Deck(){
 
 //fetch deck info from api
     useEffect(() =>{
-        console.log("useEffect");
         async function loadDeck(){
             if(deckId){
                 const loadedDeck = await readDeck(deckId);
-                console.log(loadedDeck);
                 setDeck(loadedDeck);//load deck info
                 setCards(loadedDeck.cards)//load this deck's cards
             };

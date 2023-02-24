@@ -27,7 +27,6 @@ function CreateDeck(){
     //calling createDeck fn from 'api/index'
         createDeck(formData)
         .then((newDeck) =>{
-            console.log(newDeck);
             history.push(`/decks/${newDeck.id}`);//move to new deck page
         })
         .catch((error) =>
