@@ -1,5 +1,6 @@
 {
   "port": 8080,
   "watch": true,
-  "static": "./build"
+  "static": "./build",
+  "db":"./data/db.json"
 }
