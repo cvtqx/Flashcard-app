@@ -6,7 +6,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
-    "cross-fetch": "^3.0.5",
+    "cross-fetch": "^4.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "5.2.0",
@@ -20,7 +20,7 @@
     "docker:test": "docker run -t  thinkful-ed/zid-fe-project-flashcards-01-qualified npm test",
     "eject": "react-scripts eject",
     "start": "concurrently \"npm run start:server\" \"npm run start:react\"",
-    "start:react": "react-scripts start",
+    "start:react": "react-scripts --openssl-legacy-provider start",
     "start:server": "json-server --no-cors ./data/db.json",
     "start:solution": "npm run -it docker:build && npm run docker:run",
     "test": "react-scripts test",
@@ -44,5 +44,8 @@
   "devDependencies": {
     "concurrently": "^5.3.0",
     "json-server": "^0.16.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
