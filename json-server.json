@@ -1,6 +1,6 @@
 {
   "port": 8080,
   "watch": true,
-  "static": "./build",
+  "static": "./docs/api",
   "db":"./data/db.json"
 }
