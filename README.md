@@ -1,10 +1,10 @@
 # Flashcard-app
 
-Front-end project based on React
+Front-end project built with React and JSON-server
 
 ## Deployed site
 
-https://flashcard-app-react-rti1.onrender.com/
+https://flashcardstudytool.onrender.com
 
 ## About
 
