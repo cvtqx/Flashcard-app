@@ -9,6 +9,7 @@ const API_BASE_URL = process.env.API_BASE_URL || "http://localhost:8080";
  */
 const headers = new Headers();
 headers.append("Content-Type", "application/json");
+headers.append("Access-Control-Allow-Origin", "*"); 
 
 /**
  * Removes the `cards` property from the deck so it is not accidentally saved with the deck.
