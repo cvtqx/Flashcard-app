@@ -14,6 +14,11 @@
       "name": "Countries and their capitals",
       "description": "Use this deck to study capitals of the countries of the world",
       "id": 5
+    },
+    {
+      "name": "Javascript",
+      "description": "Javascript interview prep questions",
+      "id": 6
     }
   ],
   "cards": [
@@ -64,6 +69,24 @@
       "back": "London",
       "deckId": 5,
       "id": 8
+    },
+    {
+      "front": "What is Javascript?",
+      "back": "A programming language that adds interactivity to web pages",
+      "deckId": 6,
+      "id": 9
+    },
+    {
+      "front": "What is ES6",
+      "back": "ES6, also known as ECMAScript 2015, is a major update to the JavaScript language that introduced a plethora of new features and syntax improvements.",
+      "deckId": 6,
+      "id": 10
+    },
+    {
+      "front": "What is the difference between == and === in JavaScript, and when would you use each one?",
+      "back": "== (Loose Equality / Abstract Equality Operator):\n\n   Compares two values for equality after performing type coercion.\n    This means that if the values being compared are of different types, JavaScript will attempt to convert them to the same type before making \n  the comparison.\n=== (Strict Equality / Strict Comparison Operator):\n\n    Compares both the value and the type of the operands without performing type coercion.\n    For two values to be strictly equal, they must be of the same type and have the same value.",
+      "deckId": 6,
+      "id": 11
     }
   ]
 }
